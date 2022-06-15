@@ -1,0 +1,61 @@
+* {
+    font-family: monospace;
+}
+
+body{
+    margin:0px;
+}
+#home-gif {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+
+}
+
+
+#menu {
+    margin-top: 0%;
+    padding-top: 10%;
+    z-index: 1;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    text-align: center;
+    opacity: 100%;
+    background-color: transparent;
+}
+
+#title{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.title {
+    color:white;
+    font-size: 4em;
+    
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
+.page {
+    padding: 30px;
+    background-color:rgba(182,186,199, 0.5);
+    color: white;
+    font-size: 2em;
+}
+
+li{
+    opacity: 100%;
+}
+
+
+
+
+

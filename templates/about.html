@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/about-styles.css') }}">
+</head>
+<body>
+    <ul id="menu">
+        <a href="/"><li class="page">Home</li></a>
+        <a href="/aboutme"><li class="page">About Me</li></a>
+        <a href="/education"><li class="page">My Education</li></a>
+        <a href="/hobbies"><li class="page">Hobbies</li></a>
+        <a href="/goals"><li class="page">Goals</li></a>
+    </ul>
+    <ul id="sub-menu">
+        <a href="https://www.instagram.com/snickers983/"><li><img src="../static/img/instagram.png" class="img" /></li></a>
+        <a href="https://www.linkedin.com/in/jeffrey-wang-904776236/"><li><img src="../static/img/linkedin.png" class="img" /></li></a>
+        <a href="https://www.facebook.com/jeffrey.wang.5059/"><li><img src="../static/img/facebook.png" class="img" /></li></a>
+    </ul>
+    <div id="container">
+        <div class="elem">
+            <h1 class="heading">Who am I</h1>
+            <p class="quote">"Learning Never Exhausts the Mind" - Leonardo da Vinci</p>
+            <p class="content">
+                As a  
+            </p>
+        </div>
+        <div class="elem">
+            <img src="../static/img/face-img.jpg" alt="My face" id="face"/>
+        </div>
+    </div>
+</body>
+</html>
