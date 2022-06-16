@@ -1,10 +1,12 @@
 *{
-    background-color: #b6bac7;
+    
+    font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
 body{
     margin: 0%;
     width: 100%;
+    background-color: #b6bac7;
 }
 
 #container{
@@ -31,7 +33,24 @@ img {
     width: 1em;
 }
 
+.inner-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: #d3d3d3;
+    margin: 20px;
+    padding: 10px;
+}
 
+.list{
+    text-align: center;
+    list-style-position: inside;
+    margin: 10px;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+}
 #menu {
     z-index: 1;
     display:flex;

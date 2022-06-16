@@ -1,9 +1,14 @@
 * {
-    font-family: monospace;
+    font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
 body{
     margin:0px;
+    background-image: url(../img/exia.gif);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: #545454;
+    background-blend-mode:none;
 }
 #home-gif {
     position: fixed;
@@ -18,7 +23,6 @@ body{
 
 #menu {
     margin-top: 0%;
-    padding-top: 10%;
     z-index: 1;
     display:flex;
     align-items: center;
@@ -32,14 +36,14 @@ body{
 #title{
     display: flex;
     justify-content: center;
-    margin-top: 10%;
+    margin-top: 25%;
 }
 .title {
     color:white;
     font-size: 4em;
     display: inline;
     opacity: 100%;
-    background-color: rgba(182,186,199, 0.5);
+    background-color: rgba(21, 45, 122, 0.9);
     padding: 10px;
 }
 
@@ -49,7 +53,7 @@ a {
 }
 .page {
     padding: 30px;
-    background-color:rgba(182,186,199, 0.5);
+    background-color:rgba(21, 45, 122, 0.9);
     color: white;
     font-size: 2em;
 }

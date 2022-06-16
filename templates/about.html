@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/about-styles.css') }}">
 </head>
 <body>
@@ -29,21 +32,25 @@
             <p class="content">
                 As a passionate information technology student I enjoy making new things. Starting my post-secondary life at SFU studying criminology. I did not enjoy the long hours of theory and book reading. Througho
             </p>
+            <div class="inner-grid">
+                <div class="strength">
+                    <h2>Strengths</h2>
+                    <ul class="list">
+                        <li>Python &#128526 </li>
+                    </ul>
+                </div>
+                <div class="weakness">
+                    <h2>Weaknesses</h2>
+                    <ul class="list">
+                        <li>Typescript &#128557 </li>
+                    </ul>
+                </div>
+            </div>
         </div>
         <div class="elem">
             <img src="../static/img/face-img.jpg" alt="My face" id="face"/>
         </div>
-        <div class="elem">
-            <header class="strength">Strengths</header>
-            <ul class="strength-list">
-                <li class="strength">Python</li>
-            </ul>
-        </div>
-        <div class="elem">
-            <ul class="weakness-list">
-                <li class="weakness">Typescript</li>
-            </ul>
-        </div>
+        
         <div class="elem">
             <p>My Resume: <a href="../static/pdf/Jeffrey Resume.pdf">Click Here</a></p>
         </div>
