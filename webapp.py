@@ -26,10 +26,9 @@ def education():
 def hobbies():
     return render_template("hobbies.html")
 
-@app.route("/goals")
-def goals():
-    return render_template("goals.html")
-
+@app.route("/projects")
+def projects():
+    return render_template("projects.html")
 
 if __name__ == "__main__":
     app.run(debug=True)

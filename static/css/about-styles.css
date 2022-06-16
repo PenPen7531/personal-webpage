@@ -24,6 +24,14 @@ img {
     
 }
 
+.gundam-logo{
+    background-color: transparent;
+    margin: 0%;
+    padding: 0%;
+    width: 1em;
+}
+
+
 #menu {
     z-index: 1;
     display:flex;
@@ -55,6 +63,7 @@ img {
     background-color: #222222;
     padding: 20px;
 }
+
 
 .page:hover{
     background-color: black;
@@ -100,6 +109,7 @@ a {
     max-width:100%;
     width: auto ;
     background-size: auto;
+    border-radius: 50px;
 }
 
 .quote {
@@ -113,4 +123,11 @@ a {
     padding: 1em;
     background-color: #545454;
     border-radius: 20px;
+}
+
+
+
+.strength-list, .strength{
+    margin: auto;
+    padding: auto;
 }

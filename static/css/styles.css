@@ -37,7 +37,10 @@ body{
 .title {
     color:white;
     font-size: 4em;
-    
+    display: inline;
+    opacity: 100%;
+    background-color: rgba(182,186,199, 0.5);
+    padding: 10px;
 }
 
 a {
