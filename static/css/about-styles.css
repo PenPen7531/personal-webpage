@@ -12,18 +12,15 @@ body{
 #container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
 }
 
-#container > div {
-    flex: 50%;
-    padding: 0%;
-}
 
 img {
     object-fit: contain;
-    padding: 0%;
-    margin: 0%;
-    
+    margin: 2em;
 }
 
 .gundam-logo{
@@ -34,19 +31,15 @@ img {
 }
 
 .inner-grid{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+    display: flex;
+    justify-content: space-evenly;
     background-color: #d3d3d3;
     margin: 20px;
-    padding: 10px;
+    border-radius: 30px;
 }
 
-.list{
-    text-align: center;
-    list-style-position: inside;
-    margin: 10px;
-    padding: 10px;
-}
+
+
 
 h2 {
     text-align: center;
@@ -125,9 +118,7 @@ a {
 }
 
 #face{
-    max-width:100%;
-    width: auto ;
-    background-size: auto;
+    justify-self: center;
     border-radius: 50px;
 }
 
@@ -145,8 +136,3 @@ a {
 }
 
 
-
-.strength-list, .strength{
-    margin: auto;
-    padding: auto;
-}
