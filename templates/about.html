@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/about-styles.css') }}">
 </head>
 <body>
@@ -18,7 +18,7 @@
         <a href="/education"><li class="page">My Education</li></a>
         <a href="/hobbies"><li class="page">Hobbies</li></a>
         <a href="/projects"><li class="page">Projects</li></a>
-        <a href="../static/pdf/Resume.pdf" target="_blank"><li class="page">Resume</li></a>
+        <a href="../static/pdf/Resume.pdf" onclick="return confirm('Would you like to open this file? This will be opened in another tab.')" target="_blank"><li class="page">Resume</li></a>
     </ul>
     <ul id="sub-menu">
         <a href="https://www.instagram.com/snickers983/"><li><img src="../static/img/instagram.png" class="img" /></li></a>
