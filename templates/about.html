@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
+    <script src="../static/js/about.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/about-styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/template.css') }}">
 </head>
 <body>
     <ul id="menu">
@@ -25,13 +27,38 @@
         <a href="https://www.linkedin.com/in/jeffrey-wang-904776236/"><li><img src="../static/img/linkedin.png" class="img" /></li></a>
         <a href="https://www.facebook.com/jeffrey.wang.5059/"><li><img src="../static/img/facebook.png" class="img" /></li></a>
     </ul>
+    <h1 class="heading">Who am I</h1>
+    <p class="quote">"Learning Never Exhausts the Mind" - Leonardo da Vinci</p>
     <div id="container">
         <div class="elem">
-            <h1 class="heading">Who am I</h1>
-            <p class="quote">"Learning Never Exhausts the Mind" - Leonardo da Vinci</p>
+            
             <div class="content">
                 <p class="content">
-                    As a passionate information technology student I enjoy making new things. Starting my post-secondary life at SFU studying criminology. I did not enjoy the long hours of theory and book reading. Througho
+                    As a passionate information technology student I enjoy making new things such as voice recognition Python programs and Flask APIs. 
+                    Starting my post-secondary life at SFU studying criminology, I did not enjoy the long hours of theory and book reading. 
+                    My initial trajectory was to become a police officer, a person that would follow the law and bring justice to people who did not. 
+                    The long lecture and class hours with Powerpoints and discussions with no actual hands-on experience made my expience lacking. 
+                    I was not engaged when participating in class which made it difficult to enjoy learning and keep important information in my head.
+                    <br><br> 
+                    Thoughtout my highschool and post-secondary years, I found that I enjoyed building things with my hands, such as my favorite hobbies Gunpla and model kits. 
+                    I was able to be myself while creating battle scenarios and dioramas and I was able to make projects to my liking. 
+                    This fueled my passion for IT, as it was a way for me to create un-imaginable projects with un-limited capability only limited to what was on my mind. 
+                    I decided to take a Computer Science Course during my final term at SFU. That's where I fell in love with coding, especially in Python.
+                    
+                    <span id="collapse">
+                        <br><br>
+                        I decided to go to the British Columbia Institute of Technology (BCIT) to pursue my creative career as an IT professional. 
+                        Not only have I gained knowledge about many programming languages and technologies such as Python, HTML, CSS, Javascript, and MySQL. 
+                        I have also met many friends and fellow creative minds that have expanded my learning at BCIT.
+                        <br><br>BCIT has taught my many things not only about the world of Information Technology, but also myself.
+                        I was able to learn many coding tools such as React, and Typescript, but also learning about the ethical impacts of IT and the business part of it.
+                        <br><br>
+                        With my new trajectory towards the IT sector, I am able to use my creativity to make the world better.
+                        Stiving to positively impact our world, I believe I can make a difference.
+                    </span>
+                    <br><br>
+                    <button id="button" onclick="myFunction()">View More</button>
+                    
                 </p>
                 <div class="inner-grid">
                     <div class="list-div">

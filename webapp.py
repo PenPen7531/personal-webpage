@@ -5,10 +5,8 @@ from flask import Flask, request, jsonify, render_template, redirect, session
 
 app = Flask(__name__)
 app.secret_key="asdts1233123"
-# Constant variable. Python will always make sure when the application start this is always false
 
 
-# Home page. Used to log in into a specific account based on the username
 
 @app.route("/")
 def homepage():
