@@ -5,9 +5,12 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
-
-
-
+.bcit{
+    padding: 2em;
+    background-color: #072f5f;
+    
+    color:white;
+}
 
 .inner-grid{
     display: flex;
@@ -17,17 +20,17 @@
     border-radius: 30px;
 }
 
-.content{
-    margin: 0;
-    background-color: #222222;
-
-}
 
 
-
-#content{
-    background-color: #444a5a;
+#sfu-content{
+    background-color: #8b0000;
     padding:0%;
+    margin: 0%;
+}
+#bcit-content{
+    background-color: #072f5f;
+    padding:0%;
+  
     margin: 0%;
 }
 h2 {
@@ -57,7 +60,7 @@ h2 {
 .heading{
     font-size: 3em;
     margin: 0%;
-
+    background-color: #222222;
     text-align: center;
     justify-self: flex-start;
     color: white;
