@@ -85,7 +85,7 @@ a {
 
 .img{
     display: block;
-    background-color: #545454;
+    background-color: transparent;
     margin: 0%;
     padding: 0.5em;
     width: 50px;
