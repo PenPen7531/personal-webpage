@@ -1,5 +1,3 @@
-
-
 #container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -20,13 +18,12 @@
     border-radius: 30px;
 }
 
-
-
 #sfu-content{
     background-color: #8b0000;
     padding:0%;
     margin: 0%;
 }
+
 #bcit-content{
     background-color: #072f5f;
     padding:0%;
@@ -45,10 +42,6 @@ h2 {
     background-color: #222222;
     padding: 20px;
 }
-
-
-
-
 
 .logo {
     height: 2em;

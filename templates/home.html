@@ -10,21 +10,21 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/template.css') }}">
 </head>
 <body>
-
-
-    <div id="title">
-        <h1 class="title">Welcome to Jeffrey Wang's Webpage</h1>
-    </div>
+    <div class="background">
     <ul id="menu">
+        <a href="/"><li class="page"><img class="gundam-logo" src="../static/img/gundam-logo.png"/> Home</li></a>
         <a href="/aboutme"><li class="page">About Me</li></a>
         <a href="/education"><li class="page">My Education</li></a>
         <a href="/hobbies"><li class="page">Hobbies</li></a>
         <a href="/projects"><li class="page">Projects</li></a>
         <a href="../static/pdf/Resume.pdf" onclick="return confirm('Would you like to open this file? This will be opened in another tab.')" target="_blank"><li class="page">Resume</li></a>
     </ul>
-   
-    
+    <div id="title">
+        <h1 class="title">Welcome to Jeffrey Wang's Webpage</h1>
+    </div>
+    </div>
 </body>
 </html>
