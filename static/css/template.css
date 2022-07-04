@@ -10,18 +10,23 @@ body{
 }
 
 #menu {
+
     z-index: 1;
     display:flex;
     list-style-type: none;
     text-align: center;
+    justify-content: space-evenly;
     opacity: 100%;
     background-color: #222222;
     margin-top: 0%;
     width: 100%;
-    padding-left: 0%;
     margin-bottom: 0%;
     position:sticky;
     top:0px;
+    padding-left: 0%;
+    padding-right: 0%;
+    opacity: 1;
+
 }
 
 #sub-menu {
