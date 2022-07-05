@@ -49,6 +49,11 @@ h2 {
     padding-top: 5px;
     justify-self: end;
 }
+.para{
+    background-color: grey;
+    padding: 20px;
+    border-radius: 50px ;
+}
 
 .heading{
     font-size: 3em;
@@ -80,4 +85,5 @@ img{
 
 .elem{
     padding: 50px;
+
 }
