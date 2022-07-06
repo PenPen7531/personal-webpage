@@ -51,8 +51,9 @@ h2 {
 }
 .para{
     background-color: grey;
-    padding: 20px;
-    border-radius: 50px ;
+    padding: 2em;
+    border-radius: 50px;
+    font-size: large;
 }
 
 .heading{
@@ -64,13 +65,7 @@ h2 {
     color: white;
 }
 
-.img{
-    display: block;
-    background-color: #545454;
-    margin: 0%;
-    padding: 0.5em;
-    width: 50px;
-}
+
 
 .img:hover{
     background-color: white;
@@ -87,3 +82,4 @@ img{
     padding: 50px;
 
 }
+

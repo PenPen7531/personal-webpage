@@ -28,9 +28,6 @@ body{
     opacity: 1;
 
 }
-
-
-
 #sub-menu {
     z-index: 1;
     display:flex;

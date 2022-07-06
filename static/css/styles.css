@@ -30,8 +30,7 @@ body{
     display:flex;
     list-style-type: none;
     text-align: center;
-    justify-content: space-evenly
-    ;
+    justify-content: space-evenly;
     opacity: 100%;
     background-color: #222222;
     margin-top: 0%;
