@@ -53,10 +53,10 @@ body{
 
 .page {
     color:white;
-    font-size: 1em;
+    font-size: 2em;
     background-color: #222222;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 4.355vw;
     padding-right: 4.355vw;
 }
@@ -95,9 +95,9 @@ a {
     display: block;
     background-color: #545454;
     margin: 0%;
-    padding-left: 16vw;
-    padding-right: 16vw;
-    width: 25px;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    width: 50px;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
 }
