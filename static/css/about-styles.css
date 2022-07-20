@@ -39,7 +39,6 @@ h2 {
 
 
 
-
 .heading{
     text-align: center;
     font-size: 3em;
@@ -60,6 +59,7 @@ button{
 #face{
     justify-self: center;
     border-radius: 50px;
+  
 }
 
 .quote {
@@ -78,6 +78,7 @@ button{
     padding: 1em;
     background-color: #545454;
     border-radius: 50px;
+    
 }
 
 
